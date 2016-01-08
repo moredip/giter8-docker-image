@@ -1,5 +1,6 @@
 FROM frolvlad/alpine-oraclejdk8:slim
 MAINTAINER docker@thepete.net
+LABEL Description="A simple containerization of giter8. https://github.com/moredip/giter8"
 
 RUN apk --update add curl 
 
