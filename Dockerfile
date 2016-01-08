@@ -16,4 +16,4 @@ RUN ~/bin/g8; true
 VOLUME /g8out
 WORKDIR /g8out
 
-ENTRYPOINT ["/home/conscript/bin/g8","--force"]
+ENTRYPOINT ["/root/bin/g8","--force"]
